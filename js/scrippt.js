@@ -1,5 +1,9 @@
 function FichaTecnica(){
-    let logo, nombreproducto, lineaproducto, versionesanteriores, versionactual, modulo, descripciongenpro, descripcionarqui, serhardware, sersoftware, serotros, clientehardware, clientesoftware, clienteotros, requefunciogenera, requeriadicio, version, naturcambio, fechaaprob, fechavalida, version2, naturcambio2, fechaaprob2, fechavalida2, firmaelaboro, firmaaprobo, firmavalido, fechaelaboro, fechaapro, fechavalido
+    let logo, nombreproducto, lineaproducto, versionesanteriores, versionactual, modulo,
+        descripciongenpro, descripcionarqui, serhardware, sersoftware, serotros, clientehardware,
+        clientesoftware, clienteotros, requefunciogenera, requeriadicio, version, naturcambio, fechaaprob,
+        fechavalida, version2, naturcambio2, fechaaprob2, fechavalida2, firmaelaboro, firmaaprobo, firmavalido,
+        fechaelaboro, fechaapro, fechavalido
 
     /*logo=document.getElementById("logo").value
     document.getElementById("respuesta").innerHTML="<h3>logo: "+logo+"</h3>" */
@@ -38,7 +42,7 @@ function FichaTecnica(){
 
     document.getElementById("respuesta").innerHTML="<h5> "+nombreproducto+"</h5>"
     document.getElementById("respuesta2").innerHTML="<h5> "+lineaproducto+"</h5>"
-    document.getElementById("respuesta3").innerHTML="<h5> "+versionesanteriores+"</h2>"
+    document.getElementById("respuesta3").innerHTML="<h5> "+versionesanteriores+"</h5>"
     document.getElementById("respuesta4").innerHTML="<h5> "+versionactual+"</h5>"
     document.getElementById("respuesta5").innerHTML="<h5> "+modulo+"</h5>"
     document.getElementById("respuesta6").innerHTML="<h5> "+descripciongenpro+"</h5>"
